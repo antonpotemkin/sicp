@@ -6,3 +6,4 @@
 
 ## Решение
 [code](../../src/chapter01/task1_2.rkt)
+[test](../../test/chapter01/test_2.rkt)
