@@ -5,4 +5,4 @@
 ```
 
 ## Решение
-[code](../../src/chapter1/task1_2.rkt)
+[code](../../src/chapter01/task1_2.rkt)
