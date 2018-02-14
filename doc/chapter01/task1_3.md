@@ -3,5 +3,5 @@
 квадратов двух больших из них.
 
 ## Решение
-[code](../../src/chapter01/task1_3.rkt)
-[test](../../test/chapter01/test_3.rkt)
+[code](../../src/chapter01/solution1_3.rkt)  
+[test](../../test/chapter01/test1_3.rkt)

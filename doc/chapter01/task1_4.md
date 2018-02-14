@@ -7,5 +7,5 @@
 ```
 
 ## Решение
-[code](../../src/chapter01/task1_4.rkt)
-[test](../../test/chapter01/test_4.rkt)
+[code](../../src/chapter01/solution1_4.rkt)  
+[test](../../test/chapter01/test1_4.rkt)
