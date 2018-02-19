@@ -1,7 +1,5 @@
 #lang racket/base
-
-(define (even? n)
-(= (remainder n 2) 0))
+(require "./solution1_16.rkt")
 
 (define (double a) (* a 2))
 
@@ -13,4 +11,4 @@
         ((even? n) (double (solution b (halve n))))
         (else (+ b (solution b (- n 1))))))
 
-(provide solution)
+(provide double halve solution)

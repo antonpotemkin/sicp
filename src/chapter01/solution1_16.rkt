@@ -18,5 +18,4 @@
 (define (solution b n)
   (solution-iter b n 1))
 
-(provide fast-expt)
-(provide solution)
+(provide even? fast-expt solution)
