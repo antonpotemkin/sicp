@@ -19,3 +19,5 @@
   (solution-iter b n 1))
 
 (provide even? fast-expt solution)
+
+;Инвариант a*(b^n)
