@@ -25,6 +25,7 @@
                      (iter (+ current 1) n)))))
 
 (define (search-for-primes n)
-  (iter n 3))
+  (iter n 3)
+  1)
 
 (provide search-for-primes)
