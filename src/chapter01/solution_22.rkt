@@ -28,4 +28,4 @@
   (iter n 3)
   1)
 
-(provide search-for-primes)
+(provide search-for-primes prime?)
