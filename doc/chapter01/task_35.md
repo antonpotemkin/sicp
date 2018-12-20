@@ -9,3 +9,6 @@
 x 􏰀→ 1 + 1/x
 ```
 , и используйте этот факт для вычисления φ с помощью процедуры fixed-point.
+
+[code](../../src/chapter01/solution_35.rkt)  
+[test](../../test/chapter01/test_35.rkt)
