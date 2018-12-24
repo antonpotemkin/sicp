@@ -1,6 +1,5 @@
 #lang racket/base
 
-(require rackunit "../../src/chapter01/solution_35.rkt")
 (require rackunit "../../src/chapter01/solution_37.rkt")
 
 (check-equal? (cont-frac-rec (lambda (i) 1.0)
