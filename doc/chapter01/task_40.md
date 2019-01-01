@@ -9,4 +9,4 @@
 
 ## Решение
 [code](../../src/chapter01/solution_40.rkt)  
-[test](../../test/chapter01/test_49.rkt)
+[test](../../test/chapter01/test_40.rkt)
