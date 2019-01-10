@@ -36,4 +36,4 @@
   (display (y-point p))
   (display ")"))
 
-(provide midpoint-segment print-point make-segment make-point equal-point?)    
+(provide x-point y-point midpoint-segment print-point make-segment start-segment end-segment make-point equal-point?)    
