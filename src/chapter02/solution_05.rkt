@@ -4,14 +4,13 @@
   (* (expt 2 x)
      (expt 3 y)))
 
-(define (car z)
-  (if (= (remainder z 2) 0)
-      (1 + (car (/ z 2)))
-      0)) 
+(define (iter z base acc)
+	(if (= (remainder z base) 0)
+		(iter (/ z base) base (+ acc 1))
+		acc))
 
-(define (cdr z)
-  (if (= (remainder z 3) 0)
-      (1 + (car (/ z 3)))
-      0))  
+(define (car z) (iter z 2 0)) 
+
+(define (cdr z) (iter z 3 0))  
 
 (provide cons car cdr)    
