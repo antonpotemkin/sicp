@@ -7,15 +7,15 @@
      (remainder b 2)))
 
 (define (same-parity first . l)
-    (define (iter xs res)
+    (define (iter xs)
       (if (null? xs)
-        res
+        null
         (let ((head (car xs))
               (tail (cdr xs)))
               (if (same-parity? first head)
-                  (iter tail (cons head res))
-                  (iter tail res)))))
-  (iter (reverse (cons first l)) null))
+                  (cons head (iter tail))
+                  (iter tail)))))
+  (cons first (iter l)))  
 
 
 (provide same-parity)    
